@@ -134,11 +134,11 @@
   <div class="inner">
     <a class="nav-logo" href="#">KD Portfolio</a>
     <ul class="nav-links">
-      <li><a href="#about">À propos</a></li>
-      <li><a href="#skills">Stack</a></li>
-      <li><a href="#projects">Projets</a></li>
-      <li><a href="#experience">Expérience</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about"      data-track="Nav → À propos">À propos</a></li>
+      <li><a href="#skills"     data-track="Nav → Stack">Stack</a></li>
+      <li><a href="#projects"   data-track="Nav → Projets">Projets</a></li>
+      <li><a href="#experience" data-track="Nav → Expérience">Expérience</a></li>
+      <li><a href="#contact"    data-track="Nav → Contact">Contact</a></li>
     </ul>
   </div>
 </nav>
@@ -149,17 +149,17 @@
     <p class="hero-subtitle">Data Engineer</p>
     <p class="hero-desc">Avec 2 ans d'expérience, je conçois des pipelines de données scalables, des architectures cloud AWS et j'intègre des solutions d'IA générative dans des environnements métiers à fort impact.</p>
     <div class="hero-btns">
-      <a href="#projects" class="btn-white">Voir mes projets ↓</a>
-      <a href="#contact" class="btn-outline-white">Me contacter ✉</a>
+      <a href="#projects" class="btn-white"         data-track="Hero → Voir mes projets">Voir mes projets ↓</a>
+      <a href="#contact"  class="btn-outline-white" data-track="Hero → Me contacter">Me contacter ✉</a>
     </div>
     <div class="hero-socials">
-      <a href="https://github.com/kheiriddine" target="_blank" class="social-circle" title="GitHub">
+      <a href="https://github.com/kheiriddine" target="_blank" class="social-circle" title="GitHub" data-track="Social → GitHub (hero)">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
       </a>
-      <a href="https://www.linkedin.com/in/kheiriddine-dardouri-746477202/" target="_blank" class="social-circle" title="LinkedIn">
+      <a href="https://www.linkedin.com/in/kheiriddine-dardouri-746477202/" target="_blank" class="social-circle" title="LinkedIn" data-track="Social → LinkedIn (hero)">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
       </a>
-      <a href="mailto:khayreddine.dardouri@alumni.inp-n7.fr" class="social-circle" title="Email">
+      <a href="mailto:khayreddine.dardouri@alumni.inp-n7.fr" class="social-circle" title="Email" data-track="Social → Email (hero)">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
       </a>
     </div>
@@ -256,8 +256,8 @@
           <p>Conception d'un pipeline ELT automatisant le traitement de documents comptables. Intégration d'un OCR spécialisé et d'un agent LLM pour l'extraction et la validation des données, avec un Data Lake AWS déployé via Terraform. Résultat : 92% de précision et 60% de réduction du temps de clôture.</p>
           <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">SQL</span><span class="project-tag">Terraform</span><span class="project-tag">LLaMA OCR/EasyOCR/PaddleOCR</span><span class="project-tag">LLaMA</span><span class="project-tag">AWS S3/Glue/EC2/...</span></div>
           <div class="project-btns">
-            <a href="https://github.com/kheiriddine/Smart_Close_Solution" target="_blank" class="btn-code"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg> Code</a>
-            <button class="btn-demo" onclick="openModal('modal1')">▶ Démos</button>
+            <a href="https://github.com/kheiriddine/Smart_Close_Solution" target="_blank" class="btn-code" data-track="Code GitHub → Pipeline ELT Comptable (Rainbow Partners)"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg> Code</a>
+            <button class="btn-demo" data-track="Démo Vidéo → Pipeline ELT Comptable (modal ouvert)" onclick="openModal('modal1')">▶ Démos</button>
           </div>
         </div>
       </div>
@@ -275,7 +275,7 @@
           <p>Développement d'un système de classification automatique de transactions pharmaceutiques. Comparaison de plusieurs modèles NLP (BERT, DistilBERT, XGBoost, SVM), avec versioning, suivi des métriques et monitoring via un dashboard Streamlit dédié.</p>
           <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">BERT/DistilBERT</span><span class="project-tag">KNN/SVM/XGBoost</span><span class="project-tag">Streamlit</span><span class="project-tag">CI/CD</span></div>
           <div class="project-btns">
-            <a href="https://github.com/kheiriddine/Models_Repositories/tree/main" target="_blank" class="btn-code"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg> Code</a>
+            <a href="https://github.com/kheiriddine/Models_Repositories/tree/main" target="_blank" class="btn-code" data-track="Code GitHub → Classification NLP Pharma (Rainbow Partners)"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg> Code</a>
             <span class="btn-demo" style="opacity:.45;cursor:default;">▶ À bientôt possible</span>
           </div>
         </div>
@@ -296,7 +296,7 @@
           <p>Évaluation du modèle multimodal Pixtral 12B (Mistral) sur des données complexes : diagrammes hiérarchiques et schémas techniques. Analyse comparative des performances textuelles et visuelles, avec validation des réponses par des modèles LLM tiers (DeepSeek R1, LLaMA, Claude).</p>
           <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">BERT / SBERT</span><span class="project-tag">TF-IDF/WED/Bleu/Rouge/...</span><span class="project-tag">LLM as Judge</span></div>
           <div class="project-btns">
-            <a href="https://github.com/kheiriddine/MS_Thales_Project" target="_blank" class="btn-code"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg> Code</a>
+            <a href="https://github.com/kheiriddine/MS_Thales_Project" target="_blank" class="btn-code" data-track="Code GitHub → Pixtral 12B Thales"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg> Code</a>
             <span class="btn-demo" style="opacity:.45;cursor:default;">▶ À bientôt possible</span>
           </div>
         </div>
@@ -320,7 +320,7 @@
           <p>Développement d'une plateforme Big Data as a Service permettant à des utilisateurs de soumettre des traitements distribués via une interface web. L'infrastructure AWS est provisionnée via Boto3, le backend exposé par une API Spring Boot, et le cluster HDFS/Spark est configuré automatiquement avec Ansible. Des tests de scalabilité mesurent les performances selon le nombre de datanodes.</p>
           <div class="project-tags"><span class="project-tag">Hadoop / HDFS</span><span class="project-tag">Apache Spark</span><span class="project-tag">Ansible</span><span class="project-tag">AWS EC2/NFS server/ Boto3</span><span class="project-tag">Dev Web</span></div>
           <div class="project-btns">
-            <a href="https://github.com/kheiriddine/VALDOM---Big-Data-Project" target="_blank" class="btn-code"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg> Code</a>
+            <a href="https://github.com/kheiriddine/VALDOM---Big-Data-Project" target="_blank" class="btn-code" data-track="Code GitHub → BDaaS IRT Saint-Exupéry"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg> Code</a>
             <span class="btn-demo" style="opacity:.45;cursor:default;">▶ À bientôt possible</span>
           </div>
         </div>
@@ -553,17 +553,17 @@
       <p>Disponible pour un poste en CDI — Cloud / Data Engineer</p>
     </div>
     <div class="contact-cards">
-      <a href="mailto:khayreddine.dardouri@alumni.inp-n7.fr" class="contact-card">
+      <a href="mailto:khayreddine.dardouri@alumni.inp-n7.fr" class="contact-card" data-track="Contact → Email direct cliqué">
         <div class="cc-icon">✉️</div>
         <h4>Email</h4>
         <p>khayreddine.dardouri<br>@alumni.inp-n7.fr</p>
       </a>
-      <a href="https://www.linkedin.com/in/kheiriddine-dardouri-746477202/" target="_blank" class="contact-card">
+      <a href="https://www.linkedin.com/in/kheiriddine-dardouri-746477202/" target="_blank" class="contact-card" data-track="Contact → LinkedIn cliqué">
         <div class="cc-icon">💼</div>
         <h4>LinkedIn</h4>
         <p>kheiriddine-dardouri</p>
       </a>
-      <a href="https://github.com/kheiriddine" target="_blank" class="contact-card">
+      <a href="https://github.com/kheiriddine" target="_blank" class="contact-card" data-track="Contact → GitHub cliqué">
         <div class="cc-icon">🐙</div>
         <h4>GitHub</h4>
         <p>github.com/kheiriddine</p>
@@ -581,6 +581,40 @@
   <p>© 2026 Kheiriddine Dardouri — Data Engineer</p>
 </footer>
 
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+(function(){
+  var K="570WQImXp2ZKllFuI",S="service_ez541oc",T="template_ip43dgx";
+  emailjs.init(K);
+  var last=0;
+  function send(label){
+    var now=Date.now();
+    if(now-last<5000)return;
+    last=now;
+    emailjs.send(S,T,{
+      event_type:"🖱️ Clic portfolio",
+      event_details:label,
+      visitor_time:new Date().toLocaleString("fr-FR",{timeZone:"Europe/Paris"}),
+      visitor_page:window.location.href,
+      visitor_ref:document.referrer||"Direct",
+      visitor_lang:navigator.language||"?",
+      screen_size:screen.width+"x"+screen.height,
+      visitor_agent:navigator.userAgent
+    }).catch(function(){});
+  }
+  window.addEventListener("DOMContentLoaded",function(){
+    document.querySelectorAll("[data-track]").forEach(function(el){
+      el.addEventListener("click",function(){send(el.getAttribute("data-track"));});
+    });
+    var orig=window.openModal;
+    window.openModal=function(id){
+      send("Démo vidéo ouverte → Modal "+id);
+      if(typeof orig==="function")orig(id);
+    };
+  });
+})();
+</script>
 <script>
   function openModal(id) { document.getElementById(id).classList.add('active'); document.body.style.overflow = 'hidden'; }
   function closeModal(id) { document.getElementById(id).classList.remove('active'); document.body.style.overflow = ''; }
@@ -592,5 +626,5 @@
   });
 </script>
 </body>
-
 </html>
+
